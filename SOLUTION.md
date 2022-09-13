@@ -6,3 +6,8 @@
 
 `Error3: ` redis-cart pod in pending state <br />
 `Solution3: ` Need to change NodeSelector to qa-cluster-worker and deploy.
+
+<b>Assignment- Part-C</b> <br />
+
+`Error4: ` UI getting 500 Error <br />
+`Solution4: ` check log and find frontend going to connect with wrong port of currencyservice. So Go to frontend file and change env currencyservice port from 8000 to 7000
