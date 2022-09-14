@@ -61,7 +61,7 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    app: check-outservice
+    app: checkoutservice
   ports:
   - name: grpc
     port: 5050
